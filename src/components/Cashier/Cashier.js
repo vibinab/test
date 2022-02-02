@@ -1,9 +1,10 @@
 import React from 'react';
 import "./Cashier.css";
+import Transaction from '../Transaction/Transaction';
 
 export const Cashier = () => {
   return <>
-      <h1>cashier</h1>
+      <Transaction />
   </>;
 };
 

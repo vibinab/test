@@ -1,3 +1,21 @@
 h1 {
     color: black;
 }
+
+.database {
+    display: flex;
+    justify-content: center;
+    margin-top: 12rem;
+}
+
+.database img {
+    height: 7rem;
+    width: 7rem;
+} 
+
+.data p {
+    text-align: center;
+    font-size: 1.2rem;
+    color:grey;
+    margin-top: 1.2rem;
+}

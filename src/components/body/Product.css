@@ -40,6 +40,7 @@
 .product-details .product-price {
     color: lightgreen;
     font-weight: 500;
+    font-size: 0.9rem;
 }
 
 .product-details .add-to-cart {

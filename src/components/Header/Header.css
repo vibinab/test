@@ -12,7 +12,7 @@
 
 
 .header-head  h2 {
-    font-size: 1.5rem;
+    font-size: 1.7rem;
     
 }
 .header-head  p {
@@ -26,6 +26,8 @@
     width: 88.5%;
     margin: 0 auto;
     opacity: 0.5;
+    border-radius: 5px;
+
    
 }
 
@@ -34,8 +36,12 @@
 .header-menu-list {
     display: flex;
     justify-content: center;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     font-size: 1.5rem;
+    color: black;
+    font-weight: 500;
+    
+    
     
     
    
@@ -64,8 +70,11 @@
 
 .header-menu-list .header-menu-links {
     text-decoration: none;
+    /* color: black;
+    font-weight: 500; */
+    z-index: 100;
     color: black;
-    font-weight: 500;
+    font-weight: 600;
 }
 
 
@@ -74,3 +83,22 @@
     opacity: 0.5;
     
 }
+
+@media only screen and (max-width: 960px)  {
+    .header-menu-list {
+       display: flex;
+       flex-direction: column;
+    }
+    .header-navbar {
+        width: 100%;
+
+    }
+    .header-head {
+        margin-left: 0rem;
+
+    }
+    .header-menu-list li  {
+        width: 80%;
+    }
+
+} 
